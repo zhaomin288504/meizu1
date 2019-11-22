@@ -1,0 +1,604 @@
+/* nav */
+body, html {
+  width: 100%; }
+
+.navbox {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 1260px;
+  background: #fff; }
+  .navbox .nava {
+    position: absolute;
+    z-index: 2;
+    width: 100%; }
+    .navbox .nava .navabox {
+      display: block;
+      width: 1240px;
+      height: 82px;
+      margin: 0 auto; }
+      .navbox .nava .navabox .left {
+        cursor: pointer;
+        float: left; }
+        .navbox .nava .navabox .left a {
+          display: block;
+          width: 125px;
+          padding: 28px 0;
+          text-align: left;
+          height: 80px;
+          font-size: 24px;
+          color: #337ab7;
+          text-decoration: none; }
+      .navbox .nava .navabox .center {
+        float: left;
+        width: 674px;
+        height: 82px;
+        margin-left: 174px; }
+        .navbox .nava .navabox .center li {
+          float: left;
+          margin: 0 auto; }
+          .navbox .nava .navabox .center li .a1 {
+            display: block;
+            width: 69px;
+            padding: 31px 0;
+            line-height: center;
+            text-align: center;
+            height: 82px;
+            text-decoration: none;
+            color: #000; }
+      .navbox .nava .navabox .right {
+        float: left; }
+        .navbox .nava .navabox .right .input1 {
+          width: 170px;
+          height: 30px;
+          margin: 26px 5px 0 10px;
+          background: #fff;
+          border-radius: 20px;
+          border: 1px solid #999; }
+          .navbox .nava .navabox .right .input1 input {
+            width: 128px;
+            margin: 5px 2px 0 12px;
+            height: 20px;
+            text-align: center;
+            border: 0px;
+            text-align: left;
+            color: #999; }
+          .navbox .nava .navabox .right .input1 input:focus {
+            outline: none; }
+          .navbox .nava .navabox .right .input1 i {
+            font-size: 14px;
+            text-align: right;
+            color: #999; }
+      .navbox .nava .navabox .right2 {
+        height: 82px;
+        float: right; }
+        .navbox .nava .navabox .right2 i {
+          width: 30px;
+          font-size: 29px;
+          line-height: 82px;
+          color: #fff;
+          font-weight: 550;
+          text-align: right;
+          display: block;
+          float: left;
+          color: #999; }
+        .navbox .nava .navabox .right2 .i1 {
+          margin-right: 10px; }
+  .navbox .banner {
+    display: none;
+    width: 100%;
+    overflow: hidden; }
+    .navbox .banner li {
+      width: 1810px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: 0 auto; }
+      .navbox .banner li a {
+        position: absolute;
+        left: 50%; }
+        .navbox .banner li a img {
+          position: relative;
+          left: -55%; }
+    .navbox .banner .circle {
+      width: 100%;
+      height: 25px;
+      position: absolute;
+      top: 625px;
+      z-index: 3; }
+      .navbox .banner .circle .spanbox {
+        margin: 0 auto;
+        width: 200px; }
+        .navbox .banner .circle .spanbox span {
+          display: block;
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #fff;
+          float: left;
+          margin: 5px 8px;
+          cursor: pointer; }
+        .navbox .banner .circle .spanbox .sactive {
+          background: rgba(0, 0, 0, 0);
+          border: 1px solid #fff; }
+  .navbox .barAbove {
+    width: 100%;
+    height: 183px;
+    margin-top: 72px;
+    position: relative;
+    z-index: 5;
+    background: #fff; }
+    .navbox .barAbove .list {
+      width: 1240px;
+      height: 170px;
+      z-index: 6;
+      margin: 0 auto;
+      padding-top: 10px;
+      font-size: 12px; }
+      .navbox .barAbove .list li {
+        width: 142px;
+        height: 155px;
+        float: left;
+        text-align: center;
+        margin-left: 12px;
+        background: #fff; }
+        .navbox .barAbove .list li a {
+          display: block; }
+          .navbox .barAbove .list li a img {
+            width: 120px;
+            height: 120px; }
+        .navbox .barAbove .list li span {
+          display: block;
+          width: 142px;
+          text-align: center; }
+  .navbox .titlebox {
+    width: 100%;
+    height: 70px;
+    background: #dedede;
+    position: absolute;
+    top: 82px;
+    z-index: 2;
+    opacity: 0.8; }
+    .navbox .titlebox .title1 {
+      width: 1240px;
+      margin: 0 auto;
+      height: 70px;
+      position: relative; }
+      .navbox .titlebox .title1 span {
+        display: inline-block;
+        top: 15px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 26px;
+        width: 1070px; }
+      .navbox .titlebox .title1 a {
+        display: block;
+        display: inline-block;
+        line-height: 20px;
+        font-size: 16px;
+        color: #333;
+        text-decoration: none;
+        transition: color .3s;
+        width: 72px;
+        text-align: center;
+        border-right: 1px solid #333; }
+      .navbox .titlebox .title1 .a2 {
+        border: none; }
+  .navbox .advbox {
+    width: 100%;
+    height: 960px;
+    background: #fff;
+    position: relative;
+    top: 152px;
+    z-index: 1; }
+    .navbox .advbox .jump {
+      width: 300px;
+      height: 140px;
+      background: #fff;
+      box-shadow: 5px 2px 10px 2px #BFBFBF;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 10;
+      display: none;
+      text-align: center; }
+      .navbox .advbox .jump h2 {
+        font-size: 20px;
+        margin: 20px auto; }
+    .navbox .advbox .adv {
+      width: 1240px;
+      height: 960px;
+      margin: 0 auto; }
+      .navbox .advbox .adv .left {
+        float: left;
+        width: 560px;
+        height: 960px;
+        position: relative; }
+        .navbox .advbox .adv .left .imgb {
+          width: 560px;
+          height: 560px;
+          position: relative; }
+          .navbox .advbox .adv .left .imgb .mark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+            background: #595959;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            display: none; }
+          .navbox .advbox .adv .left .imgb img {
+            width: 560px;
+            height: 560px; }
+        .navbox .advbox .adv .left ul {
+          width: 560px;
+          height: 107px;
+          margin: 10px 0 0 0px;
+          padding-left: 24px; }
+          .navbox .advbox .adv .left ul li {
+            height: 102px;
+            float: left; }
+            .navbox .advbox .adv .left ul li img {
+              width: 80px;
+              height: 80px;
+              margin: 0 24px; }
+        .navbox .advbox .adv .left .btn {
+          width: 560px;
+          height: 47px;
+          background: #fff;
+          text-align: left; }
+          .navbox .advbox .adv .left .btn div {
+            width: 24px;
+            height: 35px;
+            float: left;
+            text-align: center;
+            margin: 0 0 0 36px; }
+            .navbox .advbox .adv .left .btn div a {
+              font-size: 12px;
+              color: #BFBFBF; }
+            .navbox .advbox .adv .left .btn div span {
+              display: block;
+              font-size: 12px;
+              color: #BFBFBF; }
+      .navbox .advbox .adv .right {
+        float: right;
+        width: 640px;
+        height: 960px;
+        position: relative; }
+        .navbox .advbox .adv .right .big {
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: #337ab7;
+          display: none;
+          overflow: hidden; }
+          .navbox .advbox .adv .right .big img {
+            width: 1120px;
+            height: 1120px;
+            position: absolute; }
+        .navbox .advbox .adv .right h1 {
+          margin-bottom: 4px;
+          font-size: 28px;
+          line-height: 1.2;
+          font-weight: 700;
+          color: #262626; }
+        .navbox .advbox .adv .right p {
+          color: #e22841;
+          font-size: 14px; }
+        .navbox .advbox .adv .right .property {
+          width: 640px;
+          height: 98px;
+          padding: 16px 0 12px;
+          background: #f4f6fa;
+          padding: 16px 0 12px; }
+          .navbox .advbox .adv .right .property span {
+            color: #e02b41;
+            font-size: 36px;
+            font-weight: 500; }
+          .navbox .advbox .adv .right .property p i {
+            border-radius: 2px;
+            color: #e02b41;
+            display: inline-block;
+            width: 72px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1;
+            padding: 4px 0;
+            background: #F2EAEF; }
+          .navbox .advbox .adv .right .property p span {
+            color: #595959;
+            font-size: 14px;
+            margin: 0 5px; }
+        .navbox .advbox .adv .right .property2 {
+          width: 640px;
+          height: 117px;
+          border-bottom: 1px dashed #fff;
+          padding: 16px 0 12px; }
+          .navbox .advbox .adv .right .property2 .p1 span {
+            font-size: 12px;
+            color: #595959;
+            padding: 0 10px; }
+          .navbox .advbox .adv .right .property2 .p2 span {
+            font-size: 12px;
+            color: #595959;
+            padding: 0 10px; }
+          .navbox .advbox .adv .right .property2 .p2 i {
+            display: inline-block;
+            height: 18px;
+            min-width: 40px;
+            line-height: 18px;
+            font-size: 14px;
+            color: #262626;
+            cursor: pointer;
+            margin-left: 10px; }
+          .navbox .advbox .adv .right .property2 .p2 .span1 {
+            padding: 20px 0 0 80px; }
+        .navbox .advbox .adv .right .property3 {
+          width: 640px;
+          height: 104px;
+          margin-top: 20px; }
+          .navbox .advbox .adv .right .property3 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px; }
+          .navbox .advbox .adv .right .property3 div {
+            float: left;
+            width: 565px;
+            height: 104px; }
+            .navbox .advbox .adv .right .property3 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #BFBFBF;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+            .navbox .advbox .adv .right .property3 div .span1 {
+              border: 1px solid #262626; }
+        .navbox .advbox .adv .right .property4 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property4 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property4 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property4 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #262626;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+        .navbox .advbox .adv .right .property5 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property5 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property5 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property5 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #BFBFBF;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+            .navbox .advbox .adv .right .property5 div span:nth-child(1) {
+              border: 1px solid #262626; }
+        .navbox .advbox .adv .right .property6 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property6 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property6 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property6 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #BFBFBF;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+            .navbox .advbox .adv .right .property6 div span:nth-child(1) {
+              border: 1px solid #262626; }
+        .navbox .advbox .adv .right .property7 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property7 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property7 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property7 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #262626;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+        .navbox .advbox .adv .right .property8 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property8 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property8 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property8 div span {
+              float: left;
+              width: 176px;
+              margin: 0 10px 10px 0;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border: 1px solid #BFBFBF;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+            .navbox .advbox .adv .right .property8 div span:nth-child(1) {
+              border: 1px solid #262626; }
+        .navbox .advbox .adv .right .property9 {
+          width: 640px;
+          height: 52px;
+          margin-top: 10px; }
+          .navbox .advbox .adv .right .property9 i {
+            display: block;
+            width: 75px;
+            height: 42px;
+            float: left;
+            padding-left: 10px;
+            width: 75px;
+            font-size: 12px;
+            line-height: 42px;
+            color: #8c8c8c; }
+          .navbox .advbox .adv .right .property9 div {
+            float: left;
+            width: 565px;
+            height: 52px; }
+            .navbox .advbox .adv .right .property9 div span {
+              float: left;
+              width: 80px;
+              background-color: #fff;
+              white-space: nowrap;
+              line-height: 40px;
+              border-radius: 2px;
+              color: #595959;
+              text-align: center;
+              text-decoration: none;
+              font-size: 14px; }
+            .navbox .advbox .adv .right .property9 div .sp1 {
+              cursor: default;
+              color: #e0e0e0;
+              width: 32px;
+              height: 40px;
+              line-height: 38px;
+              font-size: 14px;
+              text-decoration: none;
+              text-align: center;
+              border: 1px solid #e7e7e7;
+              color: #000;
+              background: #f7f7f7; }
+            .navbox .advbox .adv .right .property9 div .sp2 {
+              cursor: default;
+              color: #e0e0e0;
+              width: 32px;
+              height: 40px;
+              line-height: 38px;
+              font-size: 14px;
+              text-decoration: none;
+              text-align: center;
+              border: 1px solid #e7e7e7;
+              color: #000;
+              background: #f7f7f7; }
+        .navbox .advbox .adv .right .btn {
+          width: 630px;
+          height: 56px;
+          margin: 25px 0 0 0px;
+          text-align: left;
+          color: #fff; }
+          .navbox .advbox .adv .right .btn button {
+            padding: 15px 0;
+            width: 208px;
+            font-size: 20px;
+            line-height: 24px;
+            height: 56px;
+            border-radius: 3px;
+            border: 1px solid transparent; }
+          .navbox .advbox .adv .right .btn .btn2 {
+            color: #27b3ff;
+            background: #EEF8FD;
+            border: 1px solid #27b3ff; }

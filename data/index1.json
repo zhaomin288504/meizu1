@@ -1,0 +1,376 @@
+{
+    "nav":[
+    {
+        "title":"手机",
+        "link":"listpage.html",
+        "into":[
+            {
+                "id":1,
+                "img":"https://openfile.meizu.com/group1/M00/07/7A/Cgbj0V2upxqANyVFAAjApUYA58w668.png240x240.jpg",
+                "model":"魅族16T",
+                "price":"￥1999"
+            },
+            {
+                "id":2,
+                "img":"https://openfile.meizu.com/group1/M00/07/48/Cgbj0F1jhu-AaV4AAAlk4z4lkt0463.png@240x240.jpg",
+                "model":"魅族16s Pro",
+                "price":"￥2699"
+            },
+            {
+                "id":3,
+                "img":"https://openfile.meizu.com/group1/M00/07/2C/Cgbj0FzvRI6AWu1jAAxIbnS8M5Q295.png@240x240.jpg",
+                "model":"魅族16Xs",
+                "price":"￥1499"
+            },
+            {
+                "id":4,
+                "img":"https://openfile.meizu.com/group1/M00/07/15/Cgbj0Fy9c0KAXyeaAAa7nrDVZiw073.png@240x240.jpg",
+                "model":"魅族16s",
+                "price":"￥2699"
+            },
+            {
+                "id":5,
+                "img":"https://openfile.meizu.com/group1/M00/07/12/Cgbj0Vx_ZK6AaEObAAa1DJqn7us376.png@240x240.jpg",
+                "model":"魅族Note9",
+                "price":"￥1199"
+            },
+            {
+                "id":6,
+                "img":"https://openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.jpg",
+                "model":"魅族16th",
+                "price":"￥1648"
+            },
+            {
+                "id":7,
+                "img":"https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg",
+                "model":"魅族16X",
+                "price":"￥1098"
+            },
+            {
+                "id":8,
+                "img":"https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg",
+                "model":"魅族X8",
+                "price":"￥1298"
+            }
+        ]
+    },
+    {
+        "title":"声学",
+        "link":"",
+        "into":[
+            {
+                "id":9,
+                "img":"https://openfile.meizu.com/group1/M00/07/78/Cgbj0V2unT2ACCMdAAjdK9xe2cI340.png@240x240.jpg",
+                "model":"魅族 HD60 头戴式蓝牙耳机",
+                "price":"￥499"
+            },
+            {
+                "id":10,
+                "img":"https://openfile.meizu.com/group1/M00/07/4D/Cgbj0F1l7zeAFyLsAAZJk_cF8Tk126.png@240x240.jpg",
+                "model":"MEIZU UR 高端定制耳机  预约",
+                "price":"￥200"
+            },
+            {
+                "id":11,
+                "img":"https://openfile.meizu.com/group1/M00/07/63/Cgbj0V1l2ieAYKJGAAHMHuLWRMo374.png@240x240.jpg",
+                "model":"魅族 EP3C 耳机",
+                "price":"￥129"
+            },
+            {
+                "id":12,
+                "img":"https://openfile.meizu.com/group1/M00/07/4C/Cgbj0F1l4LyAR44oAAJKhE-uRA8619.png@240x240.jpg",
+                "model":"魅族 HiFi 解码耳放 PRO",
+                "price":"￥269"
+            },
+            {
+                "id":13,
+                "img":"https://openfile.meizu.com/group1/M00/07/28/Cgbj0Vy9Jq6AEzhMAApuih_4TPw329.png@240x240.jpg",
+                "model":"魅族 POP2 真无线蓝牙耳机",
+                "price":"￥369"
+            },
+            {
+                "id":14,
+                "img":"https://openfile.meizu.com/group1/M00/07/10/Cgbj0Fy9JYOACw2DAAMWf3vEhbA886.png@240x240.jpg",
+                "model":"魅族 EP63NC 无线降噪耳机",
+                "price":"￥429"
+            },
+            {
+                "id":15,
+                "img":"https://openfile.meizu.com/group1/M00/07/2F/Cgbj0Vy_C3GAN_TKAAExaPfTwFc180.png@240x240.jpg",
+                "model":"魅族 HIFI 解码耳放",
+                "price":"￥169"
+            },
+            {
+                "id":16,
+                "img":"https://openfile.meizu.com/group1/M00/07/29/Cgbj0FzvN5eAOhF_AAG4VJC6XfM942.png@240x240.jpg",
+                "model":"魅族 EP2C 耳机",
+                "price":"￥89"
+            }
+        ]
+    },
+    {
+        "title":"配件",
+        "link":"",
+        "into":[
+            {
+                "id":17,
+                "img":"https://openfile.meizu.com/group1/M00/06/92/Cgbj0VugrWKAXgQoAALx033SuQ0691.png@240x240.jpg",
+                "model":"魅族移动电源3",
+                "price":"￥79"
+            },
+            {
+                "id":18,
+                "img":"https://storeimg.meizu.com/product/1465698264-58364.jpg@240x240.jpg",
+                "model":"魅族路由器 极速版",
+                "price":"￥69"
+            },
+            {
+                "id":19,
+                "img":"https://storeimg.meizu.com/product/1467170145-52479.png@240x240.jpg",
+                "model":"快充电源适配器（UP0830S）",
+                "price":"￥59"
+            },
+            {
+                "id":20,
+                "img":"https://openfile.meizu.com/group1/M00/07/64/Cgbj0F2uq9aAXMT6AAcqvIHVuH4818.png@240x240.jpg",
+                "model":"魅族 16T 亲肤壳膜套装",
+                "price":"￥39"
+            },
+            {
+                "id":21,
+                "img":"https://openfile.meizu.com/group1/M00/07/4C/Cgbj0F1l5xmAexI-AAdETGR3gj4619.png@240x240.jpg",
+                "model":"魅族 16s Pro 亲肤壳膜套装",
+                "price":"￥39"
+            },
+            {
+                "id":22,
+                "img":"https://openfile.meizu.com/group1/M00/00/1E/CnQOjVef_HaAaD-bAAHXId4TWtA165.png@240x240.jpg",
+                "model":"魅族 Type-C 金属数据线",
+                "price":"￥39"
+            },
+            {
+                "id":23,
+                "img":"https://storeimg.meizu.com/product/1458617159-29477.png@240x240.jpg",
+                "model":"魅族 Micro USB 数据线",
+                "price":"￥29"
+            }
+
+        ]
+    }, 
+    {
+        "title": "生活",
+        "link": "https://lists.meizu.com/page/list/?categoryid=222",
+        "into": [
+            {
+                "id": 24,
+                "img": "https://openfile.meizu.com/group1/M00/07/78/Cgbj0V2unKeALop5AAGkXjbP1nY517.png@240x240.jpg",
+                "model": "魅族防飞溅声波电动牙刷",
+                "price": "￥299"
+            },
+            {
+                "id": 25,
+                "img": "https://openfile.meizu.com/group1/M00/07/7C/Cgbj0V2vva6AOk-vAAuUyJ3QsAo839.png@240x240.jpg",
+                "model": "Pandaer 魔术师帽衫",
+                "price": "￥399"
+            },
+            {
+                "id": 26,
+                "img": "https://openfile.meizu.com/group1/M00/07/66/Cgbj0F2vvquAVavcAA456-P1T2s829.png@240x240.jpg",
+                "model": "Flyme 8 暗夜流光卫衣",
+                "price": "￥269"
+            },
+            {
+                "id": 27,
+                "img": "https://openfile.meizu.com/group1/M00/07/63/Cgbj0V1l2T6AK4g2AAV30_p6ODA499.png@240x240.jpg",
+                "model": "Lifeme 梨木伞",
+                "price": "￥499"
+            },
+            {
+                "id": 28,
+                "img": "https://openfile.meizu.com/group1/M00/07/66/Cgbj0V1mIcGAfsr1AAyHfC16kLQ799.png@240x240.jpg",
+                "model": "Pandaer readnap T恤",
+                "price": "￥199"
+            },
+            {
+                "id": 29,
+                "img": "https://openfile.meizu.com/group1/M00/07/28/Cgbj0Vy9J36ARuB2AAVQph9X9vs749.png@240x240.jpg",
+                "model": "魅族极简都市双肩包",
+                "price": "￥169"
+            },
+            {
+                "id": 30,
+                "img": "https://openfile.meizu.com/group1/M00/07/64/Cgbj0F2uuMGAVBuVAAKVcASyB8M045.png@240x240.jpg",
+                "model": "魅族声波电动牙刷刷头",
+                "price": "￥59"
+            }
+        ]
+    },
+    {
+        "title":"Flyme",
+        "link":"",
+        "into":[]
+    },
+    {
+        "title":"服务",
+        "link":"",
+        "into":[]
+    },
+    {
+        "title":"专卖店",
+        "link":"",
+        "into":[] 
+    },
+    {
+        "title":"App下载",
+        "link":"", 
+        "into":[],
+        "info": [
+            {
+                "id":31,
+                "img":"https://fms.res.meizu.com/dms/2019/01/18/935524fa-9d0b-420b-a485-105974823f40.jpg"
+            }
+        ]
+    }
+    
+    ],
+    "banner":[
+        {"id":1,"img":"https://fms.res.meizu.com/dms/2019/11/11/c521c12a-275a-4048-87ef-ff6322d5bc5a.jpg","a":"1"},
+        {"id":2,"img":"https://fms.res.meizu.com/dms/2019/10/23/151e64ec-63e5-4dc3-b902-9b491283f562.jpg","a":"2"},
+        {"id":3,"img":"https://fms.res.meizu.com/dms/2019/11/07/31ab40fd-0c04-469f-afcf-fda21b5b6dd8.jpg","a":"3"},
+        {"id":4,"img":"https://fms.res.meizu.com/dms/2019/11/11/dd1dc8a2-2477-41eb-823d-162cdeaee541.jpg","a":"4"},
+        {"id":5,"img":"https://fms.res.meizu.com/dms/2019/11/11/9592ad09-5ff8-4147-b68f-624c06d12ce8.jpg","a":"5"},
+        {"id":6,"img":"https://fms.res.meizu.com/dms/2019/11/12/e5dbc2b9-95b6-4fcc-a894-fcf4b78fd6e9.jpg","a":"6"},
+        {"id":7,"img":"https://fms.res.meizu.com/dms/2019/10/23/4eb05fa9-a350-4e4c-8e7b-8d05428f965d.jpg","a":"7"}
+        
+    ],
+    "adv": [
+        {
+            "id": 38,
+            "img": "https://fms.res.meizu.com/dms/2019/09/15/f0a3d038-7334-41eb-b6f8-0dfd909dfdc3.png",
+            "model": "魅族 16s Pro",
+            "tag": "现货开售",
+            "link": "https://detail.meizu.com/item/meizu16spro.html"
+        },
+        {
+            "id": 39,
+            "img": "https://fms.res.meizu.com/dms/2019/09/26/084789ad-e63c-4966-82b6-e81ccb5e1f73.png",
+            "model": "魅族 16s",
+            "tag": "限时特惠",
+            "link": "https://detail.meizu.com/item/meizu16s.html"
+        },
+        {
+            "id": 40,
+            "img": "https://fms.res.meizu.com/dms/2019/10/08/783dc386-cc27-4375-afe2-907d50ed47f4.jpg",
+            "model": "魅族 Note9",
+            "tag": "限时特惠",
+            "link": "https://detail.meizu.com/item/meizunote9.html"
+        },
+        {
+            "id": 41,
+            "img": "https://fms.res.meizu.com/dms/2019/04/28/552f6669-8652-4f78-a122-4866d2f7d25c.jpg",
+            "model": "Mcycle",
+            "tag": "以旧换新",
+            "link": "http://mcycle.meizu.com/"
+        }
+    ],
+    "big":[
+        {
+            "id":43,
+            "img":"https://openfile.meizu.com/group1/M00/07/48/Cgbj0F1jhu-AaV4AAAlk4z4lkt0463.png",
+            "model":"魅族 16s Pro",
+            "desc":"高通骁龙 855 Plus | 索尼 4800W 像素超广角 AI 三摄",
+            "price":"2699",
+            "active":"新品",
+            "old_price":""
+        },
+        {
+            "id":44,
+            "img":"https://openfile.meizu.com/group1/M00/07/12/Cgbj0Vx_ZK6AaEObAAa1DJqn7us376.png",
+            "model":"魅族 Note9",
+            "desc":"骁龙675 后置4800万",
+            "price":"1199",
+            "active":"领卷",
+            "old_price":""
+        }
+    ],
+    "small":[
+        {
+            "id":45,
+            "img":"https://openfile.meizu.com/group1/M00/07/3B/Cgbj0VzaXQqAMN2pAAa47vx50YU413.png",
+            "model":"魅族 16s",
+            "desc":"骁龙855 4800W光学防抖",
+            "price":"2699",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":46,
+            "img":"https://openfile.meizu.com/group1/M00/07/2C/Cgbj0FzvRI6AWu1jAAxIbnS8M5Q295.png",
+            "model":"魅族 16Xs",
+            "desc":"4800W AI三摄 | 屏幕下指纹",
+            "price":"1499",
+            "active":"免息",
+            "old_price":""
+        },
+        {
+            "id":47,
+            "img":"https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png",
+            "model":"魅族 16th",
+            "desc":"骁龙845 屏幕下指纹",
+            "price":"2298",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":48,
+            "img":"https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png",
+            "model":"魅族 16 X",
+            "desc":"骁龙710 屏幕下指纹 旗舰双摄",
+            "price":"1598",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":49,
+            "img":"https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png",
+            "model":"魅族 16th Plus",
+            "desc":"骁龙845 屏幕下指纹",
+            "price":"2698",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":50,
+            "img":"https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png",
+            "model":"魅族 X8",
+            "desc":"骁龙710 旗舰双摄",
+            "price":"1298",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":51,
+            "img":"https://openfile.meizu.com/group1/M00/07/3F/Cgbj0Vzt9L6AGWGwAA0JvJu7FS0814.png",
+            "model":"魅族 16s 白夜童话限量礼盒",
+            "desc":"以梦为马 乘风破浪",
+            "price":"3099",
+            "active":"领券",
+            "old_price":""
+        },
+        {
+            "id":52,
+            "img":"https://openfile.meizu.com/group1/M00/03/BB/Cgbj0Vq9-m2AJr_PAAp1B7CA5GY057.png",
+            "model":"魅蓝 E3",
+            "desc":"骁龙636处理器 全系6G大运存",
+            "price":"1799",
+            "active":"领券",
+            "old_price":""
+        }
+    ],
+    "Img":[
+        {"img":"https://fms.res.meizu.com/dms/2019/11/08/9b9062a1-d7ca-4c6d-b92a-da655ff9343f.jpg"},{"img":"https://fms.res.meizu.com/dms/2019/10/23/a9fbcfd9-dbe0-415d-b601-721795ccf7cd.jpg"},{"img":"https://fms.res.meizu.com/dms/2018/11/26/c67264b3-38d7-4b57-af1c-5f061c70db0e.jpg"},{"img":"https://fms.res.meizu.com/dms/2019/10/23/17758f5e-4d19-48a8-b06b-ec989dff9adb.jpg"}
+    ],
+    "imglist":"https://openfile.meizu.com/group1/M00/07/7E/Cgbj0V2wCHmAU9UWAAyb8XHRg8o489.jpg"
+    
+
+}

@@ -1,0 +1,433 @@
+/* nav */
+body, html {
+  width: 100%; }
+
+.navbox {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 480px; }
+  .navbox .nava {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: #fff; }
+    .navbox .nava .navabox {
+      display: block;
+      width: 1240px;
+      height: 82px;
+      margin: 0 auto; }
+      .navbox .nava .navabox .left {
+        cursor: pointer;
+        float: left; }
+        .navbox .nava .navabox .left a {
+          display: block;
+          width: 125px;
+          padding: 28px 0;
+          text-align: left;
+          height: 80px;
+          font-size: 24px;
+          color: #337ab7;
+          text-decoration: none; }
+      .navbox .nava .navabox .center {
+        float: left;
+        width: 674px;
+        height: 82px;
+        margin-left: 174px; }
+        .navbox .nava .navabox .center li {
+          float: left;
+          margin: 0 auto; }
+          .navbox .nava .navabox .center li .a1 {
+            display: block;
+            width: 69px;
+            padding: 31px 0;
+            line-height: center;
+            text-align: center;
+            height: 82px;
+            text-decoration: none;
+            color: #000; }
+      .navbox .nava .navabox .right {
+        float: left; }
+        .navbox .nava .navabox .right .input1 {
+          width: 170px;
+          height: 30px;
+          margin: 26px 5px 0 10px;
+          background: #fff;
+          border-radius: 20px;
+          border: 1px solid #999; }
+          .navbox .nava .navabox .right .input1 input {
+            width: 128px;
+            margin: 5px 2px 0 12px;
+            height: 20px;
+            text-align: center;
+            border: 0px;
+            text-align: left;
+            color: #999; }
+          .navbox .nava .navabox .right .input1 input:focus {
+            outline: none; }
+          .navbox .nava .navabox .right .input1 i {
+            font-size: 14px;
+            text-align: right;
+            color: #999; }
+      .navbox .nava .navabox .right2 {
+        height: 82px;
+        float: right; }
+        .navbox .nava .navabox .right2 i {
+          width: 30px;
+          font-size: 29px;
+          line-height: 82px;
+          color: #fff;
+          font-weight: 550;
+          text-align: right;
+          display: block;
+          float: left;
+          color: #999; }
+        .navbox .nava .navabox .right2 .i1 {
+          margin-right: 10px; }
+  .navbox .banner {
+    display: none;
+    width: 100%;
+    overflow: hidden; }
+    .navbox .banner li {
+      width: 1810px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: 0 auto; }
+      .navbox .banner li a {
+        position: absolute;
+        left: 50%; }
+        .navbox .banner li a img {
+          position: relative;
+          left: -55%; }
+    .navbox .banner .circle {
+      width: 100%;
+      height: 25px;
+      position: absolute;
+      top: 625px;
+      z-index: 3; }
+      .navbox .banner .circle .spanbox {
+        margin: 0 auto;
+        width: 200px; }
+        .navbox .banner .circle .spanbox span {
+          display: block;
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #fff;
+          float: left;
+          margin: 5px 8px;
+          cursor: pointer; }
+        .navbox .banner .circle .spanbox .sactive {
+          background: rgba(0, 0, 0, 0);
+          border: 1px solid #fff; }
+  .navbox .barAbove {
+    width: 100%;
+    height: 183px;
+    margin-top: 72px;
+    position: relative;
+    z-index: 5;
+    background: #fff; }
+    .navbox .barAbove .list {
+      width: 1240px;
+      height: 170px;
+      z-index: 6;
+      margin: 0 auto;
+      padding-top: 10px;
+      font-size: 12px; }
+      .navbox .barAbove .list li {
+        width: 142px;
+        height: 155px;
+        float: left;
+        text-align: center;
+        margin-left: 12px;
+        background: #fff; }
+        .navbox .barAbove .list li a {
+          display: block; }
+          .navbox .barAbove .list li a img {
+            width: 120px;
+            height: 120px; }
+        .navbox .barAbove .list li span {
+          display: block;
+          width: 142px;
+          text-align: center; }
+
+.advbox {
+  width: 100%;
+  height: 5040px;
+  background: #f4f4f4;
+  overflow: hidden; }
+  .advbox .adv {
+    width: 1240px;
+    height: 5040px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .advbox .adv .title1 {
+      width: 1240px;
+      height: 30px;
+      background: gray;
+      margin: 87px 0 10px;
+      text-align: right; }
+      .advbox .adv .title1 a {
+        position: relative;
+        font-size: 18px;
+        font-weight: 300;
+        color: #343434;
+        line-height: 30px;
+        margin-right: 15px; }
+      .advbox .adv .title1 .a2 {
+        color: #00c3f5; }
+      .advbox .adv .title1 .span1 {
+        font-size: 30px;
+        line-height: 30px;
+        float: left; }
+    .advbox .adv .content1 {
+      width: 1240px;
+      height: 3997px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      transform-style: preserve-3d; }
+      .advbox .adv .content1 li {
+        float: left;
+        width: 403px;
+        height: 556px;
+        background: #fff;
+        box-sizing: border-box;
+        transition: all .3s ease;
+        margin-top: 15px;
+        list-style: none;
+        text-align: center;
+        position: relative;
+        transition: 0.2s linear; }
+        .advbox .adv .content1 li .jianbian {
+          position: absolute;
+          top: 18px;
+          left: 18px;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          color: #fff;
+          font-size: 16px;
+          border-radius: 50%;
+          background-color: #ff3149;
+          background-image: linear-gradient(120deg, #ff3149, #ff64a6); }
+        .advbox .adv .content1 li .quan {
+          width: 130px;
+          height: 26px;
+          text-align: center;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between; }
+          .advbox .adv .content1 li .quan .q1 {
+            display: block;
+            width: 26px;
+            height: 26px;
+            float: left;
+            border: 1px solid #666;
+            border-radius: 50%;
+            display: none; }
+            .advbox .adv .content1 li .quan .q1 img {
+              margin-top: 0;
+              width: 20px;
+              height: 20px;
+              display: none; }
+        .advbox .adv .content1 li a {
+          width: 403px;
+          height: 556px;
+          text-decoration: none; }
+          .advbox .adv .content1 li a img {
+            width: 80%;
+            height: 320px;
+            margin-top: 40px;
+            display: none; }
+          .advbox .adv .content1 li a .im1 {
+            width: 80%;
+            height: 320px;
+            margin-top: 40px;
+            display: inline-block; }
+          .advbox .adv .content1 li a .p1 {
+            margin-top: 20px;
+            font-size: 23px;
+            color: #333; }
+          .advbox .adv .content1 li a .p2 {
+            display: inline-block;
+            margin: 5px auto;
+            color: #666;
+            text-align: center;
+            min-height: 24px;
+            font-size: 16px;
+            font-weight: 300;
+            max-width: 270px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
+          .advbox .adv .content1 li a .p3 {
+            color: #c00;
+            font-size: 28px; }
+      .advbox .adv .content1 li:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        transform: translate3d(0, -4px, 0);
+        opacity: 1; }
+    .advbox .adv .bigImg {
+      margin-top: 15px;
+      width: 1240px;
+      height: 248px; }
+      .advbox .adv .bigImg img {
+        width: 100%;
+        height: 100%; }
+    .advbox .adv .advbtm {
+      width: 1240px;
+      height: 492px;
+      margin-top: 90px; }
+      .advbox .adv .advbtm h2 {
+        margin-bottom: 25px; }
+      .advbox .adv .advbtm .box1 {
+        width: 3720px;
+        height: 429px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-wrap: wrap; }
+        .advbox .adv .advbtm .box1 li {
+          width: 310px;
+          height: 429px;
+          background: #fff; }
+          .advbox .adv .advbtm .box1 li a {
+            display: block;
+            width: 310px;
+            height: 429px;
+            text-align: center;
+            overflow: hidden;
+            text-decoration: none; }
+            .advbox .adv .advbtm .box1 li a .imgbox {
+              width: 310px;
+              height: 230px;
+              margin: 36px auto 36px;
+              transform-style: preserve-3d; }
+              .advbox .adv .advbtm .box1 li a .imgbox img {
+                width: 230px;
+                height: 230px;
+                transition: 0.2s linear; }
+              .advbox .adv .advbtm .box1 li a .imgbox img:hover {
+                transform-origin: 50% 50%;
+                transform: scale(1.1111); }
+            .advbox .adv .advbtm .box1 li a .span1 {
+              text-decoration: none;
+              font-size: 21px;
+              color: #2b2b2b;
+              margin-top: 36px; }
+            .advbox .adv .advbtm .box1 li a .span2 {
+              margin-top: 8px;
+              font-size: 27px;
+              color: #c00; }
+            .advbox .adv .advbtm .box1 li a span {
+              display: block; }
+    .advbox .adv .quanquan {
+      width: 1240px;
+      height: 80px; }
+      .advbox .adv .quanquan div {
+        width: 1240px;
+        height: 21px;
+        text-align: center; }
+        .advbox .adv .quanquan div span {
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+          border: 1px solid #a1a1a1;
+          background: #fff;
+          margin: 30px 10px 0;
+          cursor: pointer; }
+        .advbox .adv .quanquan div .span1 {
+          background: #a1a1a1; }
+
+.footerbox {
+  height: 200px;
+  width: 100%; }
+  .footerbox .footbox {
+    position: relative;
+    width: 1240px;
+    height: 178px;
+    margin: 48px auto 20px; }
+    .footerbox .footbox .bottom {
+      width: 1240px; }
+      .footerbox .footbox .bottom .ul1 {
+        width: 1000px;
+        height: 75px;
+        font-size: 14px;
+        color: #515151; }
+        .footerbox .footbox .bottom .ul1 li {
+          float: left;
+          text-align: center;
+          width: 15%; }
+          .footerbox .footbox .bottom .ul1 li a {
+            line-height: 27px;
+            font-size: 12px;
+            color: #666; }
+            .footerbox .footbox .bottom .ul1 li a img {
+              width: 50px;
+              height: 39px;
+              display: block;
+              margin: 0 auto; }
+            .footerbox .footbox .bottom .ul1 li a span {
+              line-height: 40px;
+              color: #999; }
+      .footerbox .footbox .bottom .xian {
+        width: 1240px;
+        height: 15px;
+        border-bottom: 1px solid #ddd; }
+    .footerbox .footbox .footnav {
+      width: 1240px;
+      height: 54px;
+      margin-top: 20px; }
+      .footerbox .footbox .footnav ul li {
+        padding-right: 15px;
+        border-right: 1px solid #d6d6d6;
+        float: left;
+        height: 18px;
+        margin-right: 15px; }
+        .footerbox .footbox .footnav ul li a {
+          text-decoration: none;
+          color: #999;
+          font-size: 12px; }
+      .footerbox .footbox .footnav ul .lasta {
+        border-right: 0; }
+      .footerbox .footbox .footnav p {
+        display: block;
+        width: 1240px;
+        float: left;
+        color: #999;
+        margin-top: 8px;
+        font-size: 12px; }
+    .footerbox .footbox .contactWay {
+      position: absolute;
+      float: right;
+      text-align: right;
+      margin-top: -18px;
+      right: 0; }
+      .footerbox .footbox .contactWay span {
+        color: #999;
+        font-size: 12px;
+        line-height: 30px; }
+      .footerbox .footbox .contactWay p {
+        color: #00c3f5;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: -6px;
+        line-height: 40px; }
+      .footerbox .footbox .contactWay a {
+        height: 30px;
+        padding: 0 16px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 3px;
+        display: inline-block;
+        font-size: 14px;
+        background: #0bbbef; }
